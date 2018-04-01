@@ -1,0 +1,105 @@
+[{
+  "group-name": "first generation",
+  "members": [
+    "Jacob Grimm",
+    "Franz Bopp",
+    "Rasmus Rask",
+    "Wilhelm von Humboldt",
+    "Friedrich von Schlegel"
+  ]
+}, {
+  "group-name": "second generation",
+  "members": [
+    "Hermann Grassmann",
+    "William Dwight Whitney",
+    "F. Max Müller",
+    "Rudolph von Roth",
+    "Albrecht Weber",
+    "George Curtius",
+    "August Schleicher",
+    "Heymann Steinthal"
+  ]
+}, {
+  "group-name": "third generation",
+  "members": [
+    "Charles R. Lanman",
+    "Maurice Bloomfield",
+    "Karl Brugmann",
+    "Hermann Osthoff",
+    "Hugo Schuchardt",
+    "Eduard Sievers",
+    "August Leskien",
+    "Jan Baudouin de Courtenay",
+    "Ferdinand de Saussure",
+    "Hermann Paul",
+    "Mikolaj Kruszewski",
+    "Berthold Delbrück"
+  ]
+}, {
+  "group-name": "St. Petersberg School",
+  "members": ["Lev Shcherba"]
+}, {
+  "group-name": "Kazan School",
+  "members": ["Mikolaj Kruszewski"]
+}, {
+  "group-name": "Moscow School",
+  "members": [
+    "F.F.Fortunatov",
+    "Sergei Karchevsk",
+    "N.Trubetzkoy",
+    "Roman Jakobson"
+  ]
+}, {
+  "group-name": "Prague Circle",
+  "members": [
+    "Sergei Karchevsk",
+    "N.Trubetzkoy",
+    "Roman Jakobson",
+    "Vilém Mathesius"
+  ]
+}, {
+  "group-name": "Vienna Circle",
+  "members": [
+    "Philipp Franck",
+    "Moritz Schlick",
+    "Otto Neurath",
+    "Hans Hahn",
+    "Rudolf Carnap",
+    "Yehoshua Bar-Hillel",
+    "Van Quine",
+    "Nelson Goodman",
+    "Hans Reichenbach",
+    "Karl Popper",
+    "Ludwig Wittgenstein",
+    "Alfred Tarski",
+    "Gottlob Frege"
+  ]
+}, {
+  "group-name": "Lwów–Warsaw_school",
+  "members": [
+    "Alfred Tarski",
+    "Stanislaw Leśniewsk",
+    "Jan Lukasiewicz",
+    "Kasimir Twardowski"
+  ]
+}, {
+  "group-name": "Gestalt psychology",
+  "members": [
+    "Fritz Heider",
+    "Kurt Lewin",
+    "Wolfgang Köhler",
+    "Max Wertheimer",
+    "Ernst Cassirer",
+    "Herbert S. Langfeld",
+    "Kurt Koffka"
+  ]
+}, {
+  "group-name": "United States Psychology",
+  "members": [
+    "James R. Angell",
+    "Edward Titchener",
+    "von Münsterberg",
+    "James McKeen Cattell",
+    "Jacques Loe"
+  ]
+}]

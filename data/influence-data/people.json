@@ -91,7 +91,7 @@
   "active": "1840-1916",
   "name": "August Leskien",
   "links": [
-    {"from": "Berthold Delbrück", "type": "blue-dashed"},
+    {"from": "F.F.Fortunatov", "type": "blue-dashed"},
     {"from": "Jan Baudouin de Courtenay", "type": "blue-circle"},
     {"from": "Maurice Bloomfield", "type": "blue-circle"}
     {"from": "August Schleicher", "type": "blue"}
@@ -100,11 +100,18 @@
   "active": "1849-1919",
   "name": "Karl Brugmann",
   "links": [
+    {"from": "George Curtius", "type": "blue-arrow"},
+    {"from": "Ferdinand de Saussure", "type": "blue-circle"}
   ]
 }, {
   "active": "1857-1913",
   "name": "Ferdinand de Saussure",
   "links": [
+    {"from": "Antoine Meillet", "type": "blue-circle"},
+    {"from": "Karl Brugmann", "type": "blue-arrow"},
+    {"from": "Hermann Osthoff", "type": "blue-arrow"},
+    {"from": "Jan Baudouin de Courtenay", "type": "black-arrow"},
+    {"from": "Michel Bréal", "type": "blue-dotted-arrow"},
   ]
 }, {
   "active": "1791-1867",
@@ -113,11 +120,15 @@
 }, {
   "active": "1850-1941",
   "name": "Charles R. Lanman",
-  "links": []
+  "links": [
+    {"from": "William Dwight Whitney", "type": "blue-arrow"},
+  ]
 }, {
   "active": "1846-1921",
   "name": "Hermann Paul",
-  "links": []
+  "links": [
+    {"from": "Heymann Steinthal", "type": "blue-circle"},
+  ]
 }, {
   "active": "1850-1932",
   "name": "Eduard Sievers",
@@ -129,9 +140,11 @@
 }, {
   "active": "1820-1885",
   "name": "George Curtius",
-  "links": []
+  "links": [
+    {"from": "Maurice Bloomfield", "type": "blue-circle"},
+  ]
 }, {
-  "active": "1821-18XX",
+  "active": "1821-1895",
   "name": "Rudolph von Roth",
   "links": []
 }, {
@@ -141,35 +154,63 @@
 }, {
   "active": "1842-1927",
   "name": "Hugo Schuchardt",
-  "links": []
+  "links": [
+    {"from": "August Schleicher", "type": "blue-circle"},
+  ]
 }, {
   "active": "1823-1900",
-  "name": "F. Max M\u00fcller",
-  "links": []
+  "name": "F. Max Müller",
+  "links": [
+    {"from": "William Dwight Whitney", "type": "red"}
+  ]
 }, {
   "active": "1855-1928",
   "name": "Maurice Bloomfield",
-  "links": []
+  "links": [
+    {"from": "Charles R. Lanman", "type": "blue-arrow"},
+    {"from": "William Dwight Whitney", "type": "blue-arrow"},
+    {"from": "Rudolph von Roth", "type": "blue-arrow"},
+    {"from": "August Leskien", "type": "blue-arrow"},
+    {"from": "Karl Brugmann", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1866-1936",
   "name": "Antoine Meillet",
-  "links": []
+  "links": [
+    {"from": "Ferdinand de Saussure", "type": "blue-arrow"},
+    {"from": "Emile Benveniste", "type": "blue-circle"},
+    {"from": "Lucien Tesnière", "type": "blue-circle"},
+    {"from": "Roman Jakobson", "type": "green-circle"}
+  ]
 }, {
   "active": "1847-1914",
   "name": "Anton Marty",
-  "links": []
+  "links": [
+    {"from": "Franz Brentano", "type": "blue-arrow"},
+    {"from": "Hermann Lotze", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1890-1938",
-  "name": "N.Trubetzkoy",
-  "links": []
+  "name": "N. Trubetzkoy",
+  "links": [
+    {"from": "Antoine Meillet", "type": "green-circle"},
+    {"from": "Karl Bühler", "type": "green-circle"},
+    {"from": "Edmund Husserl", "type": "black"}
+  ]
 }, {
   "active": "1848-1914",
   "name": "F.F. Fortunatov",
-  "links": []
+  "links": [
+    {"from": "Michel Bréal", "type": "dashed-blue"},
+    {"from": "George Curtius", "type": "dashed-blue"},
+    {"from": "August Leskien", "type": "dashed-blue"}
+  ]
 }, {
   "active": "1879-1938",
   "name": "Gustav Shpet Moscow",
-  "links": []
+  "links": [
+    {"from": "Roman Jakobson", "type": "blue"}
+  ]
 }, {
   "active": "1832-1920",
   "name": "Wilhelm Wundt",
@@ -177,10 +218,13 @@
 }, {
   "active": "1817-1881",
   "name": "Hermann Lotze",
-  "links": []
+  "links": [
+    {"from": "E.H.Weber", "type": "blue-arrow"},
+    {"from": "Gustav Fechner", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1798-1878",
-  "name": "E.H. Weber",
+  "name": "E.H.Weber",
   "links": []
 }, {
   "active": "1801-1887",
@@ -189,51 +233,80 @@
 }, {
   "active": "1838-1916",
   "name": "Ernst Mach",
-  "links": []
+  "links": [
+    {"from": "Johann Herbart", "type": "black-circle"},
+    {"from": "Christian von Ehrenfels", "type": "black-circle"},
+    {"from": "Oswald Külpe", "type": "black-circle"},
+    {"from": "James R. Angell", "type": "black-circle"}
+  ]
 }, {
   "active": "1890-1947",
   "name": "Kurt Lewin",
-  "links": []
+  "links": [
+    {"from": "Ernst Cassirer", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1887-1967",
-  "name": "Wolfgang K\u00f6hler",
-  "links": []
+  "name": "Wolfgang Köhler",
+  "links": [
+    {"from": "Alexius Meinong", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1880-1943",
   "name": "Max Wertheimer",
-  "links": []
+  "links": [
+    {"from": "Christian von Ehrenfels", "type": "blue-dashed-arrow"},
+    {"from": "Carl Stumpf", "type": "blue-dashed-arrow"}
+  ]
 }, {
   "active": "1886-1941",
   "name": "Kurt Koffka",
-  "links": []
+  "links": [
+    {"from": "Carl Stumpf", "type": "blue-arrow"},
+    {"from": "Oswald Külpe", "type": "blue-dashed-arrow"}
+  ]
 }, {
   "active": "1896-1988",
   "name": "Fritz Heider",
-  "links": []
+  "links": [
+    {"from": "Wolfgang Köhler", "type": "blue-arrow"},
+    {"from": "Kurt Lewin", "type": "blue-arrow"},
+    {"from": "Max Wertheimer", "type": "blue-arrow"},
+  ]
 }, {
   "active": "1874-1945",
   "name": "Ernst Cassirer",
   "links": []
 }, {
-  "active": "Sergei Karchevski",
-  "name": "Prag u e Circle",
-  "links": []
+  "active": "1884-",
+  "name": "Sergei Karchevski",
+  "links": [
+    {"from": "Ferdinand de Saussure", "type": "blue-arrow"},
+  ]
 }, {
-  "active": "Clark Hull",
-  "name": "1884-",
-  "links": []
+  "active": "1884-1952",
+  "name": "Clark Hull",
+  "links": [
+    {"from": "John B. Watson", "type": "black-arrow"},
+  ]
 }, {
   "active": "Karl Lashley",
   "name": "1884-1952",
-  "links": []
+  "links": [
+    {"from": "John B. Watson", "type": "blue-arrow"}
+  ]
 }, {
   "active": "E.G.Boring",
   "name": "1890-1958",
-  "links": []
+  "links": [
+    {"from": "Edward Titchener", "type": "blue-arrow"}
+  ]
 }, {
   "active": "Edward Tolman",
   "name": "1886-1968",
-  "links": []
+  "links": [
+    {"from": "John B. Watson", "type": "black-arrow"}
+  ]
 }, {
   "active": "Jacques Loeb",
   "name": "1886-1959",
@@ -241,7 +314,10 @@
 }, {
   "active": "John B. Watson",
   "name": "1859-1924",
-  "links": []
+  "links": [
+    {"from": "James R. Angell", "type": "blue-arrow"},
+    {"from": "Edward Titchener", "type": "green-arrow"}
+  ]
 }, {
   "active": "Edward Titchener",
   "name": "1878-1958",
@@ -249,43 +325,65 @@
 }, {
   "active": "1904-1990",
   "name": "B. F. Skinner",
-  "links": []
+  "links": [
+    {"from": "Edward Tolman", "type": "green-arrow"}
+  ]
 }, {
   "active": "1821-1868",
   "name": "August Schleicher",
-  "links": []
+  "links": [
+    {"from": "Charles Darwin", "type": "black-circle"}
+  ]
 }, {
   "active": "1845-1929",
   "name": "Jan Baudouin de Courtenay",
-  "links": []
+  "links": [
+    {"from": "Ferdinand de Saussure", "type": "black-arrow"},
+    {"from": "August Schleicher", "type": "blue-circle"},
+    {"from": "August Leskien", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1897-1967",
   "name": "Gordon Allport",
-  "links": []
+  "links": [
+    {"from": "Herbert S. Langfeld", "type": "blue-arrow"},
+    {"from": "von Münsterberg", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1839-1914",
   "name": "Charles Sanders Peirce",
-  "links": []
+  "links": [
+    {"from": "William James", "type": "green-arrow"}
+  ]
 }, {
   "active": "1902-1994",
   "name": "Karl Popper",
-  "links": []
+  "links": [
+    {"from": "Karl Bühler", "type": "blue-arrow"},
+  ]
 }, {
   "active": "1848-1925",
   "name": "Gottlob Frege",
-  "links": []
+  "links": [
+    {"from": "Friedrich Trendelenburg", "type": "green-arrow"},
+    {"from": "Hermann Lotze", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1901-1983",
   "name": "Alfred Tarski",
-  "links": []
+  "links": [
+    {"from": "Stanislaw Leśniewski", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1886-1939",
-  "name": "Stanislaw Le\u015bniewski",
+  "name": "Stanislaw Leśniewski",
   "links": []
 }, {
   "active": "1878-1956",
   "name": "Jan Lukasiewicz",
-  "links": []
+  "links": [
+    {"from": "Kasimir Twardowski", "type": "blue-circle"}
+  ]
 }, {
   "active": "1802 -1872",
   "name": "Friedrich Trendelenburg",
@@ -293,79 +391,136 @@
 }, {
   "active": "1842-1910",
   "name": "William James",
-  "links": []
+  "links": [
+    {"from": "G. Stanley Hall", "type": "blue-circle"},
+    {"from": "Carl Stumpf", "type": "green-arrow"}
+    {"from": "Charles Sanders Peirce", "type": "green-arrow"}
+  ]
 }, {
   "active": "1845-1918",
   "name": "Georg Cantor",
-  "links": []
+  "links": [
+    {"from": "Edmund Husserl", "type": "green-circle"}
+    {"from": "Carl Stumpf", "type": "green-circle"}
+  ]
 }, {
   "active": "1853-1920",
   "name": "Alexius Meinong",
-  "links": []
+  "links": [
+    {"from": "Franz Brentano", "type": "blue-arrow"}
+    {"from": "Wolfgang Köhler", "type": "blue-circle"}
+  ]
 }, {
   "active": "1844 -1924",
   "name": "G. Stanley Hall",
-  "links": []
+  "links": [
+    {"from": "William James", "type": "blue-arrow"}
+    {"from": "John Dewey", "type": "blue-circle"}
+  ]
 }, {
   "active": "1879-1963",
-  "name": "Karl B\u00fchler",
-  "links": []
+  "name": "Karl Bühler",
+  "links": [
+    {"from": "Antoine Meillet", "type": "green-circle"},
+    {"from": "Oswald Külpe", "type": "blue-arrow"},
+    {"from": "Carl Stumpf", "type": "blue-dashed-arrow"}
+  ]
 }, {
   "active": "1859-1952",
   "name": "John Dewey",
-  "links": []
+  "links": [
+    {"from": "James R. Angell", "type": "blue-dashed-circle"},
+    {"from": "G. Stanley Hall", "type": "blue-arrow"},
+    {"from": "Charles Sanders Peirce", "type": "blue-arrow"},
+  ]
 }, {
   "active": "1862-1915",
-  "name": "Oswald K\u00fclpe",
-  "links": []
+  "name": "Oswald Külpe",
+  "links": [
+    {"from": "Ernst Mach", "type": "black-circle"},
+    {"from": "Wilhelm Wundt", "type": "red-arrow"},
+    {"from": "Wilhelm Wundt", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1879-1958",
   "name": "Herbert S. Langfeld",
-  "links": []
+  "links": [
+    {"from": "Carl Stumpf", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1863-1916",
-  "name": "von M\u00fcnsterberg",
-  "links": []
+  "name": "von Münsterberg",
+  "links": [
+    {"from": "Wilhelm Wundt", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1860-1944",
   "name": "James McKeen Cattell",
-  "links": []
+  "links": [
+    {"from": "Wilhelm Wundt", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1869-1949",
   "name": "James R. Angell",
-  "links": []
+  "links": [
+    {"from": "John Dewey", "type": "blue-dashed-arrow"},
+    {"from": "Ernst Mach", "type": "black-circle"},
+    {"from": "Wilhelm Wundt", "type": "blue-arrow"},
+    {"from": "Jacques Loeb", "type": "green-arrow"}
+  ]
 }, {
   "active": "1915-",
   "name": "Jerome Bruner",
-  "links": []
+  "links": [
+    {"from": "Gordon Allport", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1902-1976",
   "name": "Emile Benveniste",
-  "links": []
+  "links": [
+    {"from": "Antoine Meillet", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1832-1915",
-  "name": "Michel Br\u00e9al",
-  "links": []
+  "name": "Michel Bréal",
+  "links": [
+    {"from": "Albrecht Weber", "type": "blue-arrow"},
+    {"from": "Franz Bopp", "type": "blue-arrow"},
+    {"from": "F.F.Fortunatov", "type": "blue-dashed"},
+  ]
 }, {
-  "active": "1842 -1922",
-  "name": "Berthold Delbr\u00fcck",
-  "links": []
+  "active": "1842-1922",
+  "name": "Berthold Delbrück",
+  "links": [
+    {"from": "Heymann Steinthal", "type": "blue-circle"},
+  ]
 }, {
   "active": "1851-1887",
   "name": "Mikolaj Kruszewski",
-  "links": []
+  "links": [
+    {"from": "Jan Baudouin de Courtenay", "type": "blue-arrow"},
+    {"from": "Roman Jakobson", "type": "black-arrow"}
+  ]
 }, {
   "active": "1876-1938",
-  "name": "Edward Pro kosch",
-  "links": []
+  "name": "Edward Prokosch",
+  "links": [
+    {"from": "Eduard Sievers", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1823-1899",
   "name": "Heymann Steinthal",
-  "links": []
+  "links": [
+    {"from": "Berthold Delbrück", "type": "blue-circle"},
+    {"from": "Hermann Paul", "type": "blue-circle"},
+    {"from": "Mikolaj Kruszewski", "type": "blue-circle"}
+  ]
 }, {
   "active": "1772 -1829",
   "name": "Friedrich von Schlegel",
-  "links": []
+  "links": [
+    {"from": "Johann Gottfried Herder", "type": "green"}
+  ]
 }, {
   "active": "1785 -1863",
   "name": "Jacob Grimm",
@@ -377,19 +532,27 @@
 }, {
   "active": "1880-1944",
   "name": "Lev Shcherba",
-  "links": []
+  "links": [
+    {"from": "Jan Baudouin de Courtenay", "type": "blue-arrow"}
+  ]
 }, {
-  "active": "1809 -1882",
+  "active": "1809-1882",
   "name": "Charles Darwin",
-  "links": []
+  "links": [
+    {"from": "August Schleicher", "type": "black-circle"}
+  ]
 }, {
   "active": "1862-1943",
   "name": "David Hilbert",
-  "links": []
+  "links": [
+    {"from": "Edmund Husserl", "type": "black-circle"}
+  ]
 }, {
   "active": "1806-1873",
   "name": "John Stuart Mill",
-  "links": []
+  "links": [
+    {"from": "Auguste Comte", "type": "black-arrow"}
+  ]
 }, {
   "active": "1882-1945",
   "name": "Otto Neurath",
@@ -405,27 +568,41 @@
 }, {
   "active": "1872-1970",
   "name": "Bertrand Russell",
-  "links": []
+  "links": [
+    {"from": "Ludwig Wittgenstein", "type": "blue-circle"},
+    {"from": "Gottlob Frege", "type": "green"}
+  ]
 }, {
   "active": "1879-1934",
   "name": "Hans Hahn",
-  "links": []
+  "links": [
+    {"from": "Kurt Gödel", "type": "blue"}
+  ]
 }, {
   "active": "1891-",
   "name": "Rudolf Carnap",
-  "links": []
+  "links": [
+    {"from": "Van Quine", "type": "blue-dashed"},
+    {"from": "Yehoshua Bar-Hillel", "type": "blue-dashed"}
+  ]
 }, {
   "active": "1915-1975",
   "name": "Yehoshua Bar-Hillel",
-  "links": []
+  "links": [
+    {"from": "Rudolf Carnap", "type": "blue-dashed"}
+  ]
 }, {
   "active": "1908-2000",
   "name": "Van Quine",
-  "links": []
+  "links": [
+    {"from": "Rudolf Carnap", "type": "blue-dashed"}
+  ]
 }, {
   "active": "1906-1978",
-  "name": "Kurt G\u00f6del",
-  "links": []
+  "name": "Kurt Gödel",
+  "links": [
+    {"from": "Hans Hahn", "type": "blue"}
+  ]
 }, {
   "active": "1906-1998",
   "name": "Nelson Goodman",
@@ -441,33 +618,79 @@
 }, {
   "active": "1887-1949",
   "name": "Leonard Bloomfield",
-  "links": []
+  "links": [
+    {"from": "Maurice Bloomfield", "type": "blue-arrow"},
+    {"from": "Edward Prokosch", "type": "blue-arrow"},
+    {"from": "Zellig Harris", "type": "blue-dashed-circle"}
+  ]
 }, {
   "active": "1884-1939",
   "name": "Edward Sapir",
-  "links": []
+  "links": [
+    {"from": "Zellig Harris", "type": "blue-dashed-circle"}
+    {"from": "Franz Boas", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1896 -1938",
   "name": "Roman Jakobson",
-  "links": []
+  "links": [
+    {"from": "Lucien Tesnière", "type": "green-circle"},
+    {"from": "Mikolaj Kruszewski", "type": "black"}
+  ]
 }, {
   "active": "1893-1954",
-  "name": "Lucien Tesni\u00e8re",
-  "links": []
+  "name": "Lucien Tesnière",
+  "links": [
+    {"from": "Roman Jakobson", "type": "green-circle"},
+    {"from": "Antoine Meillet", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1744-1803",
   "name": "Johann Gottfried Herder",
-  "links": []
+  "links": [
+    {"from": "Friedrich von Schlege", "type": "green"},
+    {"from": "Johann Wolfgang von Goethe", "type": "green"},
+    {"from": "Immanuel Kant", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1749-1832",
   "name": "Johann Wolfgang von Goethe",
-  "links": []
+  "links": [
+    {"from": "Wilhelm von Humboldt", "type": "green"},
+    {"from": "Johann Gottfried Herder", "type": "green"}
+  ]
 }, {
   "active": "1762-1814",
   "name": "Johann Fichte",
-  "links": []
+  "links": [
+    {"from": "Immanuel Kant", "type": "blue-arrow"}
+  ]
 }, {
   "active": "1776-1841",
   "name": "Johann Herbart",
-  "links": []
+  "links": [
+    {"from": "Johann Fichte", "type": "blue-arrow"},
+    {"from": "Ernst Mach", "type": "black-circle"}
+  ]
+}, {
+  "active": "1909-1992",
+  "name": "Zellig Harris",
+  "links": [
+    {"from": "Edward Sapir", "type": "blue-dashed-arrow"},
+    {"from": "Leonard Bloomfield", "type": "blue-dashed-arrow"}
+  ]
+}, {
+  "active": "1928-",
+  "name": "Noam Chomsky",
+  "links": [
+    {"from": "Zellig Harris", "type": "blue-arrow"},
+    {"from": "Morris Halle", "type": "green-circle"}
+  ]
+}, {
+  "active": "1928-",
+  "name": "Morris Halle",
+  "links": [
+    {"from": "Roman Jakobson", "type": "blue-arrow"},
+    {"from": "Noam Chomsky", "type": "green-circle"}
+  ]
 }]
