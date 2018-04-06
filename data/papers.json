@@ -1,0 +1,8 @@
+[
+  {
+    "name": "example-name",
+    "authors": ["a mcnutt", "b barbarioli"],
+    "methods": ["writing an example", "json"],
+    "citations": ["DOI NUMBER"]
+  }
+]
