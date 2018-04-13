@@ -1,0 +1,17 @@
+@inproceedings{zhang2000extraction,
+  title={Extraction of Chinese compound words: An experimental study on a very large corpus},
+  author={Zhang, Jian and Gao, Jianfeng and Zhou, Ming},
+  booktitle={Proceedings of the second workshop on Chinese language processing: held in conjunction with the 38th Annual Meeting of the Association for Computational Linguistics-Volume 12},
+  pages={132--139},
+  year={2000},
+  organization={Association for Computational Linguistics}
+}
+
+@inproceedings{su1994corpus,
+  title={A corpus-based approach to automatic compound extraction},
+  author={Su, Keh-Yih and Wu, Ming-Wen and Chang, Jing-Shin},
+  booktitle={Proceedings of the 32nd annual meeting on Association for Computational Linguistics},
+  pages={242--247},
+  year={1994},
+  organization={Association for Computational Linguistics}
+}
